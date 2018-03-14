@@ -5,5 +5,4 @@ flask
 jinja2
 pip
 simplejson
-sklearn
-sklearn.linear_model.logistic
+scikit-learn
