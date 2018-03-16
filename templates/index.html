@@ -92,9 +92,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <p>Depression is an illness that is often hidden and under the surface. Many families are already worried about the physical health of their loved ones, and depression intensifies everything. How can we help?
       <p>The app I developed for <b></b><a href="https://vytality.co">Vytality Health</a></b> gives you ideas. From the best places to take your loved one, to activities and conversation prompts that can improve mood or shed light - you can be a hero in someone's health story. Vytality's social health mobile app has a unique, patented ability to pinpoint, based on mobile sensors and app generated data, who in the community may be suffering from depression.
     </p>
+    <br />
+    <br />
     <h2>The model</h2>
     <hr class="w3-opacity">
-    <p>Vytality's depression detector estimates a person's emotional state based on heart rate variability (many wearable devices, such as the Apple Watch 3, provides this data). HRV is a measure of the body's autonomic nervous system. We modeled data based on an NIH sleep heart study of nearly 500 patients utilizing logistic regression to predict depression. 
+    <p>Vytality's depression detector estimates a person's emotional state based on heart rate variability (many wearable devices, such as the Apple Watch 3, provides this data). HRV is a measure of the body's autonomic nervous system. I modeled data based on an NIH sleep heart study of nearly 500 patients utilizing logistic regression to predict depression. 
     </p>
     <p>As can be seen below, the regression model provides an odds ratio ( <b>y-axis</b> ) for a given HRV, showing the odds of being in a downhearted or blue state of depression ( <b>x axis</b> = HRV. Data is standardized between 0 and 1 ). </p>
     <br /><img src="static/Sigmoid.png">
